@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0e0e0e;
+    color: #fff;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Righteous', Arial, sans-serif;
+    font-size: 100px;
+    margin: 0;
+    text-transform: lowercase;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 60px 60px;
+}
+
+#search-form {
+    padding: 60px 100px 0;
+    width: 100%;
+    display: flex;
+}
+
+#search-box {
+    flex: 1;
+    padding: 15px 25px;
+    border-radius: 50px 3px 3px 50px;
+    border: none;
+    background-color: #202020;
+    margin-right: 5px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+#search-form button {
+    font-size: 25px;
+    border-radius: 3px 50px 50px 3px;
+    padding: 0 20px 0 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#search-form button:hover {
+    opacity: 0.85;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 80px 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+#content a {
+    margin: 20px;
+}
+
+#content img {
+    height: 250px;
+    object-fit: cover;
+}
+
+#load-more-images-btn {
+    margin: 0 50px;
+    width: calc(100% - 100px);
+    font-family: 'Poppins', Arial, sans-serif;
+    padding: 15px;
+    font-size: 16px;
+    text-transform: lowercase;
+    border: none;
+    background-color: #434343;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#load-more-images-btn:hover {
+    background-color: #333333;
+}
+
+#load-more-images-btn.hidden {
+    display: none;
+}
+
+#powered-by-giphy {
+    height: 30px;
+    width: 100%;
+    object-fit: contain;
+    margin: 20px 0;
+}
